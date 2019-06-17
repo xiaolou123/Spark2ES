@@ -35,7 +35,7 @@ public class createData {
             bw.write(str2+"\n");//写入文件
 
         } catch (FileNotFoundException e) {
-            System.out.println("找不到指定文件");
+            System.out.println("找不到指定文件!");
         } catch (IOException e) {
             System.out.println("读取/写入文件失败");
         } finally {
